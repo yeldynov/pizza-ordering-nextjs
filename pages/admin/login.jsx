@@ -10,8 +10,9 @@ const Login = () => {
   const router = useRouter();
 
   const handleClick = async () => {
+    console.log(process.env.BACKEND_URL);
     try {
-      await axios.post(process.env.BACKEND_URL + 'api/login', {
+      await axios.post(`${process.env.BACKEND_URL}api/login`, {
         username,
         password,
       });

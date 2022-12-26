@@ -21,7 +21,7 @@ const Footer = () => {
         <div className={styles.card}>
           <h1 className={styles.title}>ЧАСИ РОБОТИ:</h1>
           <p className={styles.text}>
-            ПОНЕДІЛОК - П'ЯТНИЦЯ
+            ПОНЕДІЛОК - П&lsquo;ЯТНИЦЯ
             <br /> 9:00 - 22:00
           </p>
           <br />

@@ -45,7 +45,7 @@ const Add = ({ setClose }) => {
         img: url,
       };
 
-      axios.post('http://localhost:3000/api/products', newProduct);
+      axios.post(process.env.BACKEND_URL + 'api/products', newProduct);
       setClose(true);
     } catch (error) {
       console.log(error);
